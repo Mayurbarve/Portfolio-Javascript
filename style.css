@@ -110,3 +110,26 @@ header ul li a{
     font-size: 2em;
 
 }
+.dayNight ion-icon:nth-child(2),
+.banner.night .dayNight ion-icon:nth-child(1){
+    display: none;
+}
+.banner.night .dayNight ion-icon:nth-child(2){
+    display: block;
+}
+.banner.night{
+    background: #333;
+}
+
+.banner.night .dayNight{
+    color: #fff;
+    background: #444;
+
+}
+.banner.night header .logo,
+.banner.night .content p,
+.banner.night .content h2,
+.banner.night .content button.chat,
+.banner.night header ul li a{
+    color: #fff;
+}
